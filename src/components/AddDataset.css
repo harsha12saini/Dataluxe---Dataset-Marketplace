@@ -1,0 +1,133 @@
+.adddatasetcontainer {
+  background-color: #111;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
+}
+
+form {
+  background-color: #111;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 500px;
+}
+
+.inputgroup {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.uploadarea {
+  border: 2px dashed white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.uploadarea:hover {
+  background-color: rgba(229, 62, 62, 0.2);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.inputfield {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #2d3748;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+}
+
+.inputfield::placeholder {
+  color: #a0aec0;
+}
+
+.tagscontainer {
+  display: flex;
+  align-items: center;
+}
+
+.tagslist {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.tagitem {
+  background-color: #e53e3e;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.removetag {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.buttoncontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.uploadbutton {
+  background-color: #e53e3e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.uploadbutton:hover {
+  background-color: #c53030;
+}
+
+.cancelbutton {
+  background-color: #4a5568;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cancelbutton:hover {
+  background-color: #2d3748;
+}
